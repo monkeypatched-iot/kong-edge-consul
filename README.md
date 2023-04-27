@@ -12,7 +12,9 @@ then execute the consul commands using
 sudo docker exec -it <Container ID> consul <Command>
 ``` 
 
-the complete list of commands can be found below Usage: consul [--version] [--help] <command> [<args>]
+the complete list of commands can be found below
+```
+Usage: consul [--version] [--help] <command> [<args>]
 
 Available commands are:
     acl            Interact with Consul's ACLs
@@ -48,5 +50,3 @@ Available commands are:
     watch          Watch for changes in Consul
 ```
 
-
-```
